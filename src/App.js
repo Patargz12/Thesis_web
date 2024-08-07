@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+import { Button } from "flowbite-react";
+
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Trailer from "./components/Trailer";
+import Gallery from "./components/Gallery";
+import Certificate from "./components/Certificate";
+import Footer from "./components/Footer";
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+      <Trailer />
+      <Gallery />
+      <Certificate />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
