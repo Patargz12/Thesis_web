@@ -29,7 +29,7 @@ const Main = () => {
       </h1>
       <p class="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
         Our capstone project that lead us to being a participator for the AppCon
-        2023 hosted by Otis Philippines Inc.?
+        2023 hosted by Otis Philippines Inc.
       </p>
       <a
         class="focus:outline-none cursor-pointer mt-10 text-white bg-yellow-600 hover:bg-yellow-500 hover:cursor focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
