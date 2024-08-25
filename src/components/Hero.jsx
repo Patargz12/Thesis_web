@@ -2,11 +2,15 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 items-center lg:flex-row lg:items-center">
+    <div
+      class="container mt-16 flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 items-center lg:flex-row lg:items-center"
+      id="hero"
+    >
       <div class="w-full lg:w-1/2 flex items-center justify-center animate__animated animate__backInDown">
         <div class="lg:max-w-lg">
-          <h1 class="text-3xl font-semibold tracking-wide dark:text-white lg:text-4xl text-amber-600 ">
-            A mobile app that has object detection and text-to-speech technology
+          <h1 class="text-3xl font-semibold tracking-wide dark:text-white lg:text-4xl  ">
+            A <span className="text-amber-600">mobile app</span> that has object
+            detection and text-to-speech technology
           </h1>
           <p class="mt-4 text-gray-600 dark:text-gray-300 font-semibold">
             It detects traffic signs and reads them out loud for the driver to
