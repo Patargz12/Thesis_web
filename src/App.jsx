@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
       <Navbar />
       <Main />
       <Hero />

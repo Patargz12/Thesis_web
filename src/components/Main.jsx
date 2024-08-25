@@ -10,7 +10,7 @@ const scrollToSection = (id) => {
 const Main = () => {
   return (
     <main
-      class="flex 100vh min-h-screen flex-1 mt-10 w-full flex-col items-center justify-center text-center"
+      class="flex 100vh min-h-screen flex-1 mt-10 w-full flex-col items-center justify-center text-center "
       data-aos="fade-in"
     >
       <h1 class="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
@@ -28,8 +28,8 @@ const Main = () => {
         </span>
       </h1>
       <p class="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
-        Our capstone project that lead us to being a participator for the AppCon
-        2023 hosted by Otis Philippines Inc.
+        Our capstone project that led us to be participants in AppCon
+        2023, hosted by Otis Philippines Inc.
       </p>
       <a
         class="focus:outline-none cursor-pointer mt-10 text-white bg-yellow-600 hover:bg-yellow-500 hover:cursor focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
