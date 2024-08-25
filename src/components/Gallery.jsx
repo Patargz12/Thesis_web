@@ -5,11 +5,17 @@ const Trailer = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="container px-6 py-4 mx-auto  ">
-        <h1 className="text-2xl font-semibold text-center text-amber-600 capitalize lg:text-3xl dark:text-white animate__animated animate__fadeIn ">
+        <h1
+          className="text-2xl font-semibold text-center text-amber-600 capitalize lg:text-3xl dark:text-white animate__animated animate__fadeIn "
+          data-aos="zoom-in"
+        >
           Gallery
         </h1>
 
-        <p className="mt-4 text-center text-gray-500 dark:text-gray-300 animate__animated animate__fadeIn">
+        <p
+          className="mt-4 text-center text-gray-500 dark:text-gray-300"
+          data-aos="zoom-in"
+        >
           Here are several people that witnessed and tested the greatness of
           Roadspeak.
         </p>
@@ -17,6 +23,8 @@ const Trailer = () => {
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-3 xl:grid-cols-3">
           <div
             className="overflow-hidden bg-cover rounded-lg h-96 group"
+            data-aos="zoom-in-down"
+            data-aos-delay="50"
             style={{
               backgroundImage: `url(${pic1})`,
             }}
@@ -33,6 +41,8 @@ const Trailer = () => {
 
           <div
             className="overflow-hidden bg-cover rounded-lg h-96 group"
+            data-aos="zoom-in-down"
+            data-aos-delay="500"
             style={{
               backgroundImage: `url(${pic2})`,
             }}
@@ -49,6 +59,8 @@ const Trailer = () => {
 
           <div
             className="overflow-hidden bg-cover rounded-lg h-96 group"
+            data-aos="zoom-in-down"
+            data-aos-delay="1000"
             style={{
               backgroundImage: `url(${pic3})`,
             }}

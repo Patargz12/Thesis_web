@@ -37,7 +37,7 @@ function MyNavbar() {
           alt="Roadspeak logo"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Roadspeak
+          RoadSpeak
         </span>
       </Navbar.Brand>
       <Navbar.Toggle className="bg-white" />

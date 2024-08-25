@@ -1,7 +1,4 @@
 import React from "react";
-import { Logo } from "../Assets/";
-import { Logo_2 } from "../Assets/";
-import { bg } from "../Assets/";
 
 const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -12,7 +9,10 @@ const scrollToSection = (id) => {
 
 const Main = () => {
   return (
-    <main class="flex sm:mt-60 xs:mt-60 mt-52 flex-1 w-full flex-col items-center justify-center text-center px-4 ">
+    <main
+      class="flex 100vh min-h-screen flex-1 mt-10 w-full flex-col items-center justify-center text-center"
+      data-aos="fade-in"
+    >
       <h1 class="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
         RoadSpeak
         <span class="relative whitespace-nowrap text-orange-400">
@@ -28,11 +28,11 @@ const Main = () => {
         </span>
       </h1>
       <p class="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
-        Want to know our capstone project that lead us to being a participator
-        for the AppCon 2023 hosted Otis Philippines Inc. ?
+        Our capstone project that lead us to being a participator for the AppCon
+        2023 hosted by Otis Philippines Inc.?
       </p>
       <a
-        className="focus:outline-none cursor-pointer mt-10 text-white bg-yellow-600 hover:bg-yellow-500 hover:cursor focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
+        class="focus:outline-none cursor-pointer mt-10 text-white bg-yellow-600 hover:bg-yellow-500 hover:cursor focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
         onClick={() => scrollToSection("hero")}
       >
         Proceed

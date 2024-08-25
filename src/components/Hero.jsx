@@ -6,7 +6,10 @@ const Hero = () => {
       class="container mt-16 flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 items-center lg:flex-row lg:items-center"
       id="hero"
     >
-      <div class="w-full lg:w-1/2 flex items-center justify-center animate__animated animate__backInDown">
+      <div
+        class="w-full lg:w-1/2 flex items-center justify-center "
+        data-aos="fade-right"
+      >
         <div class="lg:max-w-lg">
           <h1 class="text-3xl font-semibold tracking-wide dark:text-white lg:text-4xl  ">
             A <span className="text-amber-600">mobile app</span> that has object
@@ -134,7 +137,10 @@ const Hero = () => {
         </div>
       </div>
 
-      <div class="flex items-center justify-center w-full h-96 lg:w-1/2 animate__animated animate__backInRight">
+      <div
+        class="flex items-center justify-center w-full h-96 lg:w-1/2"
+        data-aos="fade-left"
+      >
         <iframe
           width="610"
           height="365"

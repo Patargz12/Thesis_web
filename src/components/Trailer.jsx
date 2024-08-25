@@ -8,7 +8,10 @@ const Trailer = () => {
   return (
     <div class="container px-6 py-16 mx-auto">
       <div class="items-center lg:flex">
-        <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2 mb-5 animate__animated animate__bounceInUp">
+        <div
+          class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2 mb-5 "
+          data-aos="fade-right"
+        >
           <iframe
             width="610"
             height="365"
@@ -21,7 +24,7 @@ const Trailer = () => {
           ></iframe>
         </div>
         <div class="w-full lg:w-1/2">
-          <div class="lg:max-w-lg animate__animated animate__bounceInRight">
+          <div class="lg:max-w-lg" data-aos="fade-left">
             <h1 class="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
               <span className="text-amber-600">RoadSpeak</span> AppCon 2023{" "}
               <br /> Entry Trailer{" "}

@@ -5,7 +5,7 @@ import { certificate } from "../Assets";
 const Certificate = () => {
   return (
     <section class="bg-white dark:bg-gray-900">
-      <div class="container px-6 py-16 mx-auto text-center">
+      <div class="container px-6 py-16 mx-auto text-center" data-aos="zoom-out">
         <div class="max-w-lg mx-auto">
           <h1 class="text-3xl text-amber-600 font-semibold lg:text-4xl">
             Certification
