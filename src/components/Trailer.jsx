@@ -1,4 +1,5 @@
 import React from "react";
+import Button2 from "./Button2";
 
 const handleClick = () => {
   window.open("https://www.facebook.com/AppCon2024", "_blank");
@@ -30,18 +31,12 @@ const Trailer = () => {
               <br /> Entry Trailer{" "}
             </h1>
 
-            <p class="mt-3 text-gray-600 dark:text-gray-400">
+            <p class="mt-4 text-gray-600 dark:text-gray-400">
               Here is our short video trailer, which we used for the
               AppCon competition entry.
             </p>
 
-            <button
-              type="button"
-              onClick={handleClick}
-              class="focus:outline-none mt-5 text-white bg-yellow-600 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
-            >
-              Learn more
-            </button>
+            <Button2 />
           </div>
         </div>
       </div>

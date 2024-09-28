@@ -24,7 +24,7 @@ function MyNavbar() {
 
   return (
     <Navbar
-      className={`bg-yellow-600 z-10 sm:px-12 fixed top-0 left-0 w-full text-white shadow-lg transition-all duration-300 ${
+      className={`bg-yellow-600 block z-10 sm:px-12 fixed top-0 left-0 w-full text-white shadow-lg transition-all duration-300 ${
         isScrolled ? "py-2" : "py-4"
       }`}
     >

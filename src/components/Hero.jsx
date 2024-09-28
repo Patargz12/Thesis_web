@@ -12,10 +12,10 @@ const Hero = () => {
       >
         <div class="lg:max-w-lg">
           <h1 class="text-3xl font-semibold tracking-wide dark:text-white lg:text-4xl  ">
-            A <span className="text-amber-600">mobile app</span> that has object
+            A <span className="text-amber-600">Mobile App</span> that has object
             detection and text-to-speech technology
           </h1>
-          <p class="mt-4 text-gray-600 dark:text-gray-300 font-semibold">
+          <p class="mt-4 text-gray-600 dark:text-gray-300">
             It detects traffic signs and reads them out loud for the driver to
             aware them about the signages around them and prevent misfortunes.
           </p>
